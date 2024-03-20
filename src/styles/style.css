@@ -1,0 +1,30 @@
+@font-face {
+    font-family: IranYekan-Bold;
+    src: url(../fonts/IranYekan-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: IranYekan-Black;
+    src: url(../fonts/IranYekan-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Morabba-Black;
+    src: url(../fonts/Morabba-Black.ttf) format('truetype');
+}
+
+.font-IranYekan-Bold {
+    font-family: IranYekan-Bold;
+}
+
+.font-IranYekan-Black {
+    font-family: IranYekan-Black;
+}
+
+.font-Morabba-Black {
+    font-family: Morabba-Black;
+}
+
+.nav-item:hover .nav-link {
+    color: #ffc107 !important;
+}
