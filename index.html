@@ -13,7 +13,7 @@
 
 <body class="bg-dark">
     <!-- navbar -->
-    <nav class="navbar navbar-dark navbar-expand-lg border-top border-3 border-warning">
+    <nav class="navbar navbar-dark navbar-expand-lg border-top border-3 border-warning fixed-top bg-dark">
         <div class="container">
             <a class="navbar-brand text-warning font-Morabba-Black d-flex align-items-center" href="#">
                 <img src="./src/images/logo.png" alt="Logo" width="35" height="35">
@@ -23,7 +23,15 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse ms-lg-5 justify-content-between" id="navbarNav">
+            <div class="collapse navbar-collapse ms-lg-5 justify-content-between flex-row-reverse mt-2 mt-lg-0"
+                id="navbarNav">
+                <div>
+                    <button type="button" class="btn btn-warning px-4 fw-bold">English</button>
+                    <button type="button" class="btn btn-primary font-IranYekan-Bold px-4">ورود</button>
+                    <button type="button" class="btn btn-secondary">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                    </button>
+                </div>
                 <ul class="navbar-nav">
                     <li class="nav-item font-IranYekan-Bold">
                         <a class="text-white nav-link" href="#">تماشای آنلاین</a>
@@ -44,19 +52,12 @@
                         <a class="text-white nav-link" aria-disabled="true">تماس با ما</a>
                     </li>
                 </ul>
-                <div>
-                    <button type="button" class="btn btn-warning px-4 fw-bold">English</button>
-                    <button type="button" class="btn btn-primary font-IranYekan-Bold px-4">ورود</button>
-                    <button type="button" class="btn btn-secondary">
-                        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
-                    </button>
-                </div>
             </div>
         </div>
     </nav>
     <!-- Carousel -->
     <div class="container">
-        <div class="row mb-5">
+        <div class="row my-5 pt-3">
             <div class="col">
                 <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel" dir="ltr">
                     <div class="carousel-indicators mb-0">
